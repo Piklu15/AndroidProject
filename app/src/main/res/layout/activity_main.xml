@@ -84,14 +84,67 @@
         <TextView
             android:id="@+id/textView2"
             android:layout_width="0dp"
-            android:layout_height="21dp"
-            android:layout_marginBottom="8dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="600dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
-            android:text="TextView"
+            android:text="Second  Headline"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView100"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:srcCompat="@drawable/pc4" />
+
+        <ImageView
+            android:id="@+id/imageView101"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline4"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:srcCompat="@drawable/pic2" />
+
+        <ImageView
+            android:id="@+id/imageView102"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView100"
+            app:srcCompat="@drawable/pic1" />
+
+        <ImageView
+            android:id="@+id/imageView103"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline4"
+            app:layout_constraintTop_toBottomOf="@+id/imageView101"
+            app:srcCompat="@drawable/pic3" />
 
 
     </android.support.constraint.ConstraintLayout>
